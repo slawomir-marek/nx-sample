@@ -1,0 +1,10 @@
+<header class="flex">
+  <h1>Welcome to client app!</h1>
+</header>
+<main>
+  <div class="list-item" *ngFor="let item of items$ | async">
+    <div>{{ item.id }}</div>
+    <div>{{ item.name }}</div>
+    <div>{{ item.status }}</div>
+  </div>
+</main>

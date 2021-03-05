@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  font-family: sans-serif;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: #143055;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+main {
+  padding: 12px 36px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
