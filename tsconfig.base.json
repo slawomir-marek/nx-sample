@@ -15,7 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-sample-test/catalog/domain": ["libs/catalog/domain/src/index.ts"]
+      "@nx-sample-test/catalog/domain": ["libs/catalog/domain/src/index.ts"],
+      "@nx-sample-test/catalog/feature-manage": [
+        "libs/catalog/feature-manage/src/index.ts"
+      ],
+      "@nx-sample-test/catalog/feature-search": [
+        "libs/catalog/feature-search/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
