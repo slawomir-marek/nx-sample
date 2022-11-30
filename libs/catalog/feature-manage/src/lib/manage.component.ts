@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ManageFacade } from '@nx-sample-test/catalog/domain';
+import { ManageFacade } from '@nx-sample/catalog/domain';
 
 @Component({
   selector: 'catalog-manage',

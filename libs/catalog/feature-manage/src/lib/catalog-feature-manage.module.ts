@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CatalogDomainModule } from '@nx-sample-test/catalog/domain';
+import { CatalogDomainModule } from '@nx-sample/catalog/domain';
 import { ManageComponent } from './manage.component';
 
 @NgModule({
